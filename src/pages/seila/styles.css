@@ -1,0 +1,60 @@
+.principal {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(125,125,125), rgb(255,255,255));
+
+
+}
+
+.titulos {
+    margin-bottom: 50px;
+}
+
+.titulos h1 {
+    color: rgb(163, 6, 163);
+    font-family: arial;
+}
+
+.titulos p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.textos {
+    padding: 90px;
+    text-align: left;
+    
+}
+
+.textos h2 {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: arial;
+}
+
+.textos p {
+    font-family: arial;
+    font-size: 17px;
+}
+
+.textos a {
+    text-decoration: none;
+    color: rgb(135, 20, 202);
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.video {
+    border: solid 1px transparent;
+    border-radius: 20px;
+    margin-left: 20px;
+    
+}
