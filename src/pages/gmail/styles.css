@@ -1,0 +1,69 @@
+body {
+    display: flex ;
+    min-height: 100vh;
+    font-family: arial;
+    justify-content: center;
+}
+
+.pai {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 740px;
+    padding: 15px;
+}
+
+
+.tabela{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+.tabela h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.item {
+    /* padding:20px; */
+    height: 65px;
+    justify-content: space-between;
+}
+
+.subtitle {
+    position: relative;
+    bottom: 10px
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.item:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.item:nth-child(odd) {
+    background-color: white;
+}
+
+.date {
+    display: flex;
+    position: relative;
+    bottom: 60px;
+}
+
+.tabela, .date{
+    display: flex;
+    justify-content: end;
+}
+
+.title{
+    font-weight: normal;
+}
